@@ -1,0 +1,129 @@
+﻿
+
+
+
+
+    <div class="help">
+        <div class="contact-header main-color">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                    </div>
+                </div>
+
+                <h4 class="text-right">تواصل معنا</h4>
+            </div>
+        </div>
+    </div>
+
+    <!--End About Us-->
+    <div class="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="all-content wow fadeInUp" data-wow-duration="1.5s" data-wow-offset="400">
+                        <div class="first-about-img">
+                            <div class="about-img">
+                                <a data-toggle="modal" data-target="#map" style="cursor:pointer">
+
+                                    <img class="img-responsive" src="~/website/image/img/second-map.png" alt="img" />
+                                </a>
+
+                            </div>
+                        </div>
+
+                        <div id="map" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="custom-width-modalLabel" aria-hidden="true" style="display: none; top: 13%; left: 28%;">
+                            <div class="modal-dialog" style="width:1000px;">
+
+                                <iframe src="https://www.google.com/maps/place/29%C2%B050'33.0%22N+31%C2%B018'16.3%22E/29.8425,31.304535,17z/data=!3m1!4b1!4m6!3m5!1s0!7e2!8m2!3d29.8424999!4d31.3045355" width="400" height="300" frameborder="0" style="border:0; width: 1000px; height: 560px;" allowfullscreen></iframe>
+
+                            </div><!-- /.modal-dialog -->
+                        </div><!-- /.modal -->
+
+                        <div class="help-about-content">
+                            <div class="about-content">
+                                <div class="first-prag" style="margin-bottom: 70px;">
+                                    <p>تواصل معنا عن طريق البريد الالكتروني او ارسال استفسارك عن طريق ملئ البيانات المطلوبه بالاسفل</p>
+                                </div><!--End-first-prag-->
+
+                                <div class="contact-us">
+                                    <form asp-controller="Home" asp-action="Index" role="form" method="post" accept-charset="UTF-8">
+                                        <input name="_token" type="hidden" value="">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <label>الأسم </label>
+                                            </div>
+                                            <div class="col-sm-9">
+                                                <input class="form-control" type="text" name="name" placeholder="ادخل الاسم"  />
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <label>البريد الإلكترونى</label>
+                                            </div>
+                                            <div class="col-sm-9">
+                                                <input class="form-control" type="text" name="email" placeholder="البريد الإلكترونى"  />
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <label>عنوان الرسالة</label>
+                                            </div>
+                                            <div class="col-sm-9">
+                                                <input class="form-control" type="text" name="head" placeholder="عنوان الرسالة" />
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <label>محتوى الرسالة</label>
+                                            </div>
+                                            <div class="col-sm-9">
+                                                <textarea class="form-control" placeholder="ادخل محتوى الرسالة" name="content" ></textarea>
+                                                <button type="submit" class="btn btn-primary form-control main-color">ارسل رسالتك</button>
+
+
+
+                                            </div>
+                                        </div><!--End Row-->
+                                    </form>
+                                </div><!-- Form-Help-->
+
+                                <div class="help-contact">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <i class="fa fa-envelope-o"></i>
+                                            <span>amr.taloony@gmail.com </span>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <i class="fa fa-phone"></i>
+
+                                            <span dir="ltr">+2 01000139055</span>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <i class="fa fa-calendar"></i>
+                                            <span>السبت - الخميس 8 ص : 4 م</span>
+                                        </div>
+                                    </div><!--End Row-->
+                                </div><!--End Help-Content-->
+
+                            </div><!--End About Content-->
+                        </div><!--End Help About Content-->
+                    </div><!--End All-Content-->
+                </div><!--End Col-->
+            </div><!--End Row-->
+        </div><!--End Container-->
+    </div>
+
+
+    <!-- Large modal -->
+
+    <div class="thanks-modal modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <h3> شكرا لك .. </h3>
+                <p> استلمنا الطلب الخاص بك وسيتم الرد عليه خلال 24 ساعه في مواعيد العمل الرسمية او 48 ساعة في فتره الأجازة و سيتم الاستفسار عن رقم الطلب </p>
+                <p class="p-002">  تم ارسال رقم الطلب علي البريد الالكتروني الخاص بك </p>
+                <button class="btn btn-primary main-color"> الرجوع للصفحة الرئيسية </button>
+            </div>
+        </div>
+    </div>
+
+    <!--End About-us-->
+
+
+
+
